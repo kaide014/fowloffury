@@ -1,0 +1,1155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Idle
+    m_Hash: 1008081451
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenIdle01_01
+      m_Hash: 840194844
+      m_Sprite: {fileID: 21300000, guid: 58a55c9c660db8b40939a11394031cd6, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: e4b508f87b904fe4ebd9373442bae795, type: 3}
+    - m_Name: ChickenIdle01_02
+      m_Hash: 723323558
+      m_Sprite: {fileID: 21300000, guid: 6d4e0c44d8ed6b44880c4a1e0f741605, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: c8510ac912e469b418a90155a9c14dfb, type: 3}
+    - m_Name: ChickenIdle01_03
+      m_Hash: 471480880
+      m_Sprite: {fileID: 21300000, guid: 106b0fab6c77f334390badbb062a5a54, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: e4b508f87b904fe4ebd9373442bae795, type: 3}
+    - m_Name: ChickenIdle01_04
+      m_Hash: 41856915
+      m_Sprite: {fileID: 21300000, guid: 4bf26be096535b74f8f238b71038c256, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: c8510ac912e469b418a90155a9c14dfb, type: 3}
+    - m_Name: ChickenIdle01_05
+      m_Hash: 897163013
+      m_Sprite: {fileID: 21300000, guid: 4ebe966e10a420e40adb1333228f8a88, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: e4b508f87b904fe4ebd9373442bae795, type: 3}
+    - m_Name: ChickenIdle01_06
+      m_Hash: 745590463
+      m_Sprite: {fileID: 21300000, guid: e3be8a6b9c9e62b4cb4d8a63e0068a99, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: c8510ac912e469b418a90155a9c14dfb, type: 3}
+    - m_Name: ChickenIdle01_07
+      m_Hash: 460848681
+      m_Sprite: {fileID: 21300000, guid: d113e672880908b48a37b1c070e01c0b, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: c8510ac912e469b418a90155a9c14dfb, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 7
+  - m_Name: Run
+    m_Hash: 675013152
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenRun01_01
+      m_Hash: 780301527
+      m_Sprite: {fileID: 21300000, guid: 63d4ca427302eb945b158f1ff17b12f5, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: aaf10731513f4fe498f6b808bab1fb61, type: 3}
+    - m_Name: ChickenRun01_02
+      m_Hash: 931865965
+      m_Sprite: {fileID: 21300000, guid: e9633d8b4af562f4c9f90ef60330b05c, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b6b12f59b224a3840b503c7423cd65e7, type: 3}
+    - m_Name: ChickenRun01_03
+      m_Hash: 9180667
+      m_Sprite: {fileID: 21300000, guid: 9dcf595140fd9624d8b423f1efb354b4, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: fb33fa21c8297084bbef8c75184ba8cd, type: 3}
+    - m_Name: ChickenRun01_04
+      m_Hash: 518553688
+      m_Sprite: {fileID: 21300000, guid: 890e312dd6ae6c7409ebe42e2a5a5e52, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 177fcbab5fba0d9489202d043cb01667, type: 3}
+    - m_Name: ChickenRun01_05
+      m_Hash: 703574222
+      m_Sprite: {fileID: 21300000, guid: 456125bf197497c429784e39ac3721d5, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 4c28e738421efc4418359f9aea892d7a, type: 3}
+    - m_Name: ChickenRun01_06
+      m_Hash: 820437364
+      m_Sprite: {fileID: 21300000, guid: 20c6b4bce11409d4a9d862ed314610e4, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 042a3726dda1542498ab947736a88332, type: 3}
+    - m_Name: ChickenRun01_07
+      m_Hash: 132239842
+      m_Sprite: {fileID: 21300000, guid: ded8c0f99a1acb847abba2a9810278d4, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 1584b5a700c05734fae3be6d0ec8db31, type: 3}
+    - m_Name: ChickenRun01_08
+      m_Hash: 392088691
+      m_Sprite: {fileID: 21300000, guid: d36a6a2f88d11d444bea9e1818484c01, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 4477438bdfd90ae4c917b01b5d2eddc1, type: 3}
+    - m_Name: ChickenRun01_09
+      m_Hash: 542768357
+      m_Sprite: {fileID: 21300000, guid: 6132df7be91758744b76a9af4ee65fb5, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b12e04c045b50034d8594e5cec333822, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 9
+  - m_Name: Dodge
+    m_Hash: 279897482
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenDodge01_01
+      m_Hash: 70530506
+      m_Sprite: {fileID: 21300000, guid: e1021dc5da22cbd41b913e213713b312, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: efa507eef915bc6449928745de37cfac, type: 3}
+    - m_Name: ChickenDodge01_02
+      m_Hash: 490562672
+      m_Sprite: {fileID: 21300000, guid: 106d194b693d764468d015868e0784e6, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 87363b8144a8d524b9ae5494fe2f3b93, type: 3}
+    - m_Name: ChickenDodge01_03
+      m_Hash: 708465894
+      m_Sprite: {fileID: 21300000, guid: d214bb5f375fa224da45c4e9fb2a6476, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 3a94443612f3e6e48b285fd4882ae623, type: 3}
+    - m_Name: ChickenDodge01_04
+      m_Hash: 878625093
+      m_Sprite: {fileID: 21300000, guid: c52676833b1c0eb42b8ba2cb0ae6cf3a, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: bae59b7aedfb0aa449b379b46d53a40c, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 4
+  - m_Name: Jump
+    m_Hash: 125937960
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenJump01_01
+      m_Hash: 249876208
+      m_Sprite: {fileID: 21300000, guid: b26e883e2ece3cb4d91320aa84dfdef1, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 119e69d2ff1d6524b832e7279a9a4732, type: 3}
+    - m_Name: ChickenJump01_02
+      m_Hash: 401448778
+      m_Sprite: {fileID: 21300000, guid: a828b7eebbe1e4541931ba96f3956f73, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: ec8c609fc16e26e4d8509c69814c1a9f, type: 3}
+    - m_Name: ChickenJump01_03
+      m_Hash: 552251356
+      m_Sprite: {fileID: 21300000, guid: 81fbf1f6bc9ec53499208b0e01fe546c, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b339a7a3b990aa14ab02f05f2efd037a, type: 3}
+    - m_Name: ChickenJump01_04
+      m_Hash: 1049508479
+      m_Sprite: {fileID: 21300000, guid: 1dd88cf602062ee44b580e540637e65b, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: fca66acb5f42c9f40a37c65720651848, type: 3}
+    - m_Name: ChickenJump01_05
+      m_Hash: 159976169
+      m_Sprite: {fileID: 21300000, guid: cccefdcbd5502de47ae14a1d992c6373, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 1b6c4a5882ab91d4c9dbe642dc1b094c, type: 3}
+    - m_Name: ChickenJump01_06
+      m_Hash: 276847443
+      m_Sprite: {fileID: 21300000, guid: 9ebbb09c1e765ab45905cbc1fe41f72c, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 896a4a2f3a6773e4581593c1e8f14e93, type: 3}
+    - m_Name: ChickenJump01_07
+      m_Hash: 663186373
+      m_Sprite: {fileID: 21300000, guid: a86f29c20d937eb4c82e3a0855cf930a, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 1a160644bd706154db5669dc0be1aa77, type: 3}
+    - m_Name: ChickenJump01_08
+      m_Hash: 926447188
+      m_Sprite: {fileID: 21300000, guid: 7d69af0208fa39f429355d3b96de3e4f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: aec542ee3e8140a48b4000e7f045c178, type: 3}
+    - m_Name: ChickenJump01_09
+      m_Hash: 4146882
+      m_Sprite: {fileID: 21300000, guid: 575f4a272f16c3a498f800ee889f9743, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 229747cdb4b45d34e9192a0a0bf9f177, type: 3}
+    - m_Name: ChickenJump01_10
+      m_Hash: 553176871
+      m_Sprite: {fileID: 21300000, guid: 6bc807a584e5c3c4ea29549cf1d14aad, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b05666ea117067748aaedd7e35566141, type: 3}
+    - m_Name: ChickenJump01_11
+      m_Hash: 402653105
+      m_Sprite: {fileID: 21300000, guid: 5a95e46b4bc99de44aef0f9a5e38304d, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 0e246459e73f18249bb6b57bc99b5dc3, type: 3}
+    - m_Name: ChickenJump01_12
+      m_Hash: 251047435
+      m_Sprite: {fileID: 21300000, guid: 143937203b7021143bdedc47342dc5f7, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: ac38be3634abc5841aeaf75da3680632, type: 3}
+    - m_Name: ChickenJump01_13
+      m_Hash: 972136093
+      m_Sprite: {fileID: 21300000, guid: 295c29597ca6aae4fac37e1c28dc4e7c, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 4d4ca94c2071ef24ca3ff36d07c32ae6, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 13
+  - m_Name: RightJab
+    m_Hash: 381043909
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenRightPunch01_02
+      m_Hash: 284993079
+      m_Sprite: {fileID: 21300000, guid: 2d56f0eff656f3544910a702d0874048, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: ba14dbec1e52c9f4683b8f56831cab8b, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 1
+  - m_Name: LeftJab
+    m_Hash: 377927992
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenLeftPunch01_01
+      m_Hash: 133072620
+      m_Sprite: {fileID: 21300000, guid: 0dcadc59418363e4590c4a2e88067666, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: ee9916adc4b57cb41adeb9f921d6800d, type: 3}
+    - m_Name: ChickenLeftPunch01_02
+      m_Hash: 518510422
+      m_Sprite: {fileID: 21300000, guid: c9f145c4e5156084582dfe52ebc5b2eb, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: ba6de1c039848ff4fbabece6ad113d2c, type: 3}
+    - m_Name: ChickenLeftPunch01_03
+      m_Hash: 702605248
+      m_Sprite: {fileID: 21300000, guid: e36928afeb166ae42ad2c8afd7e94a0d, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b41ef08263aa31b4faf721f8042e3ea1, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 3
+  - m_Name: RightKick
+    m_Hash: 206491834
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenRightKick01_01
+      m_Hash: 589336517
+      m_Sprite: {fileID: 21300000, guid: 46320b131c7eccb429c46689633cb81f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: f22a891e5c5c95f47bbbb8987f6e3902, type: 3}
+    - m_Name: ChickenRightKick01_02
+      m_Hash: 975822463
+      m_Sprite: {fileID: 21300000, guid: 68df9bd4eb72b8d4fb8f653500676710, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 6507801983ecaa944a4a1f19b55e8fdc, type: 3}
+    - m_Name: ChickenRightKick01_03
+      m_Hash: 221179625
+      m_Sprite: {fileID: 21300000, guid: 1b1ad15bcbdb3144daf06c6e49fc601a, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 06eb105f9fa814a45a0c34d56389f920, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 3
+  - m_Name: LeftKick
+    m_Hash: 264400614
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenLeftKick01_01
+      m_Hash: 113121112
+      m_Sprite: {fileID: 21300000, guid: 502ea1cd330348845b932a7480c46073, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 9790eca6dd4c29449ba0c961c092c796, type: 3}
+    - m_Name: ChickenLeftKick01_02
+      m_Hash: 532104930
+      m_Sprite: {fileID: 21300000, guid: ec6779ed79772cf46a6f94df1ec3daa7, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: cdd21ee5f5cbb8b49b4b3bb19b16421d, type: 3}
+    - m_Name: ChickenLeftKick01_03
+      m_Hash: 682653300
+      m_Sprite: {fileID: 21300000, guid: 9218c93d16b4dfc428a0c382481111ee, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 8ecb7b39539cd874b8b42341f04f3d58, type: 3}
+    - m_Name: ChickenLeftKick01_04
+      m_Hash: 919921623
+      m_Sprite: {fileID: 21300000, guid: 957232d47e959bc48a167400ba5323da, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: dc3b8cd1d8977804f8b9c83d97e87e12, type: 3}
+    - m_Name: ChickenLeftKick01_05
+      m_Hash: 30659393
+      m_Sprite: {fileID: 21300000, guid: be907229dba08fb44a4f4ec375921666, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 79e2c7aec26ebb34bab9be6c7d0b8ae7, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 5
+  - m_Name: Block
+    m_Hash: 47888422
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenBlock01_01
+      m_Hash: 596123773
+      m_Sprite: {fileID: 21300000, guid: f65491d9e4324b040a1d592f6a7be7a0, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: e53356ab73627614e83bd1303fd60133, type: 3}
+    - m_Name: ChickenBlock01_02
+      m_Hash: 981561799
+      m_Sprite: {fileID: 21300000, guid: c1b5009355c89bf49a411b5324808c2e, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: f9d28fab64a73044e87f6475a0546c6b, type: 3}
+    - m_Name: ChickenBlock01_03
+      m_Hash: 226902353
+      m_Sprite: {fileID: 21300000, guid: dc46057f2f906ab428771abd63d103a4, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 89ab7979433d86e41acdaddc721edd38, type: 3}
+    - m_Name: ChickenBlock01_04
+      m_Hash: 333632754
+      m_Sprite: {fileID: 21300000, guid: 5bfa448dc3451d041a086d7b59fa50d3, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 9089e7e8afb7c9240a6944e827e0d006, type: 3}
+    - m_Name: ChickenBlock01_05
+      m_Hash: 619045988
+      m_Sprite: {fileID: 21300000, guid: a218dc466cc894d4bb6a597c84be83e5, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 6b247cd7cb9d56d41b5a31ef17014856, type: 3}
+    - m_Name: ChickenBlock01_06
+      m_Hash: 1038923230
+      m_Sprite: {fileID: 21300000, guid: 095a15ef42e6b4f46804f43fe9a3eae4, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: dd964e1199364334aa624f12a949bb54, type: 3}
+    - m_Name: ChickenBlock01_07
+      m_Hash: 183207240
+      m_Sprite: {fileID: 21300000, guid: f57480f6d55aad74296987100976cb57, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 622d9dbef01fce549971b6313157358f, type: 3}
+    - m_Name: ChickenBlock01_08
+      m_Hash: 441751769
+      m_Sprite: {fileID: 21300000, guid: 000370d6cffd613498a5d13c4cfe86d8, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: dcc655c1663bcd14ab7c1f4a02e5bb5d, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 8
+  - m_Name: Kamikazee
+    m_Hash: 844721007
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenKamikazee01_01
+      m_Hash: 820648191
+      m_Sprite: {fileID: 21300000, guid: 29db92245413d4246b4e0c12054da8f1, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: dc1687194e9550549bd1aa6e0c0bcb81, type: 3}
+    - m_Name: ChickenKamikazee01_02
+      m_Hash: 702761285
+      m_Sprite: {fileID: 21300000, guid: d7cbd0c3bcb81b7408075bdbc0f1d903, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 314e8801bd6b0f1409b70bd01a218f06, type: 3}
+    - m_Name: ChickenKamikazee01_03
+      m_Hash: 518289875
+      m_Sprite: {fileID: 21300000, guid: e1270566ae31ed349aa72b228174621b, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 6e4789a48cb8f5a498bc79d1a8877d40, type: 3}
+    - m_Name: ChickenKamikazee01_04
+      m_Hash: 8449136
+      m_Sprite: {fileID: 21300000, guid: d90a38def6c41d347a20bf6a3d8fb115, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 9bb60af7168e62e4ab07683f91fac8e7, type: 3}
+    - m_Name: ChickenKamikazee01_05
+      m_Hash: 931650790
+      m_Sprite: {fileID: 21300000, guid: 057d45e46ac8b6544ab98d18ce8b8b3c, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: f8f21ae4cef0cc94cb7e506c09d50a06, type: 3}
+    - m_Name: ChickenKamikazee01_06
+      m_Hash: 781094236
+      m_Sprite: {fileID: 21300000, guid: 46e9365bf12114244a7df838addaa4fb, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: de4ad3de2af292d468df76efbb710c66, type: 3}
+    - m_Name: ChickenKamikazee01_07
+      m_Hash: 428457418
+      m_Sprite: {fileID: 21300000, guid: 1dd8123c00eb58f4987fd33bfa3e41d6, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 97190746f21c0624fa4b70b9feeb994b, type: 3}
+    - m_Name: ChickenKamikazee01_08
+      m_Hash: 154574939
+      m_Sprite: {fileID: 21300000, guid: e9092995b6b650a47b8abe85a4c8ec08, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 5f4c8bd3fc2d8a843ae23fb4f5895e44, type: 3}
+    - m_Name: ChickenKamikazee01_09
+      m_Hash: 1043435725
+      m_Sprite: {fileID: 21300000, guid: 096390e8a466ffb42854ae2e291549fc, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 1028713b31697af4bbe55fd0058942b2, type: 3}
+    - m_Name: ChickenKamikazee01_10
+      m_Hash: 519444776
+      m_Sprite: {fileID: 21300000, guid: 66f23b07d6cee444bac978ebb6934956, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 85d25269abd1fd9429d2feed4b4725eb, type: 3}
+    - m_Name: ChickenKamikazee01_11
+      m_Hash: 703670718
+      m_Sprite: {fileID: 21300000, guid: f23c8865a34dae74682ec808970593c0, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 39eec21233681194b831c5a0955921ee, type: 3}
+    - m_Name: ChickenKamikazee01_12
+      m_Hash: 821590020
+      m_Sprite: {fileID: 21300000, guid: 772ce0a5f6784484a97e4e0d6abcc4e5, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 4c5764522b039ef4b8c0d167dc1ab587, type: 3}
+    - m_Name: ChickenKamikazee01_13
+      m_Hash: 134170770
+      m_Sprite: {fileID: 21300000, guid: 58d9363127924d44eb12d3114f09287f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: a577bbf8eae117946999e7b74ee69f22, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 13
+  - m_Name: KickDown
+    m_Hash: 854643541
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenKickdown01_01
+      m_Hash: 21907261
+      m_Sprite: {fileID: 21300000, guid: 0484b02481c92b5478b7c987cf520dac, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: f13af7401b27f814cb08ac0a66670ebc, type: 3}
+    - m_Name: ChickenKickdown01_02
+      m_Hash: 407312007
+      m_Sprite: {fileID: 21300000, guid: d0ff05cdb362b7c409f5a3c98423f6f5, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 2ced5260210161045985a378ee2b8083, type: 3}
+    - m_Name: ChickenKickdown01_03
+      m_Hash: 792733201
+      m_Sprite: {fileID: 21300000, guid: e57c7c6c56172914ebe877b62c556fde, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 52adba7253364c74cb0873585d2d454f, type: 3}
+    - m_Name: ChickenKickdown01_04
+      m_Hash: 824488882
+      m_Sprite: {fileID: 21300000, guid: 7ca18e2e9d4dbc54d9dbcdbd5a7ec15d, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 9d6019fb765183246bc111e97ec07fa4, type: 3}
+    - m_Name: ChickenKickdown01_05
+      m_Hash: 102990628
+      m_Sprite: {fileID: 21300000, guid: 321866769cdd51244805d759919c605f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: f6fb284a3e2f02944ad8dbbb58aba74b, type: 3}
+    - m_Name: ChickenKickdown01_06
+      m_Hash: 522900126
+      m_Sprite: {fileID: 21300000, guid: addfdfb5bdda5344284e6e1cf2c0b9b8, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: cafcaf3b80b2cee4d87b38e77eb1ff07, type: 3}
+    - m_Name: ChickenKickdown01_07
+      m_Hash: 674095624
+      m_Sprite: {fileID: 21300000, guid: d254a5727ce18a84191b81e56a340b1c, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 5294eea8ecc5f6b47a170c0fe302e680, type: 3}
+    - m_Name: ChickenKickdown01_08
+      m_Hash: 949157785
+      m_Sprite: {fileID: 21300000, guid: e3f82de46f2f4b3428941d1550516d3a, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 862db3702f8de254ebe4e6b320ca69c5, type: 3}
+    - m_Name: ChickenKickdown01_09
+      m_Hash: 261476111
+      m_Sprite: {fileID: 21300000, guid: 6ad326746f66c864ca9d6aca99ef90f0, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 1ab8f18099aaa9a4482c0c786bf5c542, type: 3}
+    - m_Name: ChickenKickdown01_10
+      m_Hash: 793921258
+      m_Sprite: {fileID: 21300000, guid: 7e3a6adac92b79341812d92fae35c1e1, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 691d2d621b8bfd142b6e9edc2a5c314b, type: 3}
+    - m_Name: ChickenKickdown01_11
+      m_Hash: 408254076
+      m_Sprite: {fileID: 21300000, guid: 827c9db7011394349b844f42a79bb116, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 8db015071f6b5ea48bf01417514f1529, type: 3}
+    - m_Name: ChickenKickdown01_12
+      m_Hash: 22816710
+      m_Sprite: {fileID: 21300000, guid: c7d9df3cec3611348812d343bfb51b91, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 097bf3877c713734490bedadc13faf7d, type: 3}
+    - m_Name: ChickenKickdown01_13
+      m_Hash: 911939408
+      m_Sprite: {fileID: 21300000, guid: d0a20fc42e6822f458fbba95fe256e9c, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 30e2232f1ee3eba4990ad493da7b7a30, type: 3}
+    - m_Name: ChickenKickdown01_14
+      m_Hash: 675250931
+      m_Sprite: {fileID: 21300000, guid: 63d101a11cd088243b0dd04076e699e6, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 53b928dca6174c440b4a7d8d7158c1bb, type: 3}
+    - m_Name: ChickenKickdown01_15
+      m_Hash: 523809381
+      m_Sprite: {fileID: 21300000, guid: 7a034b13faf0e8b4c9b51497806e878d, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: a76daf25a5cd20745802585db1b203f6, type: 3}
+    - m_Name: ChickenKickdown01_16
+      m_Hash: 103932895
+      m_Sprite: {fileID: 21300000, guid: f57371fc01dda1140ac6d530b79fb3f5, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 20f2ccaf0c162814586be58b9389d26d, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 16
+  - m_Name: RanLFeetAttack
+    m_Hash: 760750423
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenRandLFeetAttack01_01
+      m_Hash: 517893620
+      m_Sprite: {fileID: 21300000, guid: 04799105869c5fb4c8b5d2582f7c3020, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 036d753938362c44fae5b13dd42904b5, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_02
+      m_Hash: 131546190
+      m_Sprite: {fileID: 21300000, guid: 19f584228e9a34f498986b2218746c26, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 2724cb0a965cee548a8b9f4dc8087f39, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_03
+      m_Hash: 818941144
+      m_Sprite: {fileID: 21300000, guid: 569ff51f0de4236438a796ce63cfb3fb, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: c010c8d63e718e241b74b3fc5e8eb91b, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_04
+      m_Hash: 783587707
+      m_Sprite: {fileID: 21300000, guid: c65b869d9f3dc5d418aab44bd443ff04, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 69da3411a2ff2fb48a9c144976b52b1a, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_05
+      m_Hash: 431204845
+      m_Sprite: {fileID: 21300000, guid: 6ef5252860817fe4aa6a1a824fafdb4e, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b3f3667a6d35afd42b7984df7dc9ae8a, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_06
+      m_Hash: 12253271
+      m_Sprite: {fileID: 21300000, guid: 3de1d9427ccf8184e97ea926bc65c491, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 7842dc0fdb93eff49b425f304e86216f, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_07
+      m_Hash: 935184577
+      m_Sprite: {fileID: 21300000, guid: 7d45b929232de8e4db20a57fa0689496, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b3f3667a6d35afd42b7984df7dc9ae8a, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_08
+      m_Hash: 654497104
+      m_Sprite: {fileID: 21300000, guid: 4eab77bfdebc5ca43801a3e4c84d842f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: c3196cba16d4133448f811a2364eb718, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_09
+      m_Hash: 268821958
+      m_Sprite: {fileID: 21300000, guid: 97f3c97b629adbf49b756082ae5be998, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b3f3667a6d35afd42b7984df7dc9ae8a, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_10
+      m_Hash: 818048035
+      m_Sprite: {fileID: 21300000, guid: 400690b1d818ea244a5ff97117e49e19, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 7842dc0fdb93eff49b425f304e86216f, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_11
+      m_Hash: 130374837
+      m_Sprite: {fileID: 21300000, guid: 996c461612fa40c41ac2c4b70109ad2c, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b3f3667a6d35afd42b7984df7dc9ae8a, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_12
+      m_Hash: 516689167
+      m_Sprite: {fileID: 21300000, guid: bbb87df768c1555448295c1446b6b208, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 7842dc0fdb93eff49b425f304e86216f, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_13
+      m_Hash: 701185433
+      m_Sprite: {fileID: 21300000, guid: b2c4d15515daa894d93f255bf8bc9e34, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b3f3667a6d35afd42b7984df7dc9ae8a, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_14
+      m_Hash: 934258746
+      m_Sprite: {fileID: 21300000, guid: 1a47a2bdd6cf7c148ac35ace2a529147, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 7842dc0fdb93eff49b425f304e86216f, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_15
+      m_Hash: 11049132
+      m_Sprite: {fileID: 21300000, guid: 31b9bad2b0058f940bbfc123c9edcf1a, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b3f3667a6d35afd42b7984df7dc9ae8a, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_16
+      m_Hash: 430033174
+      m_Sprite: {fileID: 21300000, guid: b717c72cf8c17a74ea2a94d05d040db3, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 7842dc0fdb93eff49b425f304e86216f, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_17
+      m_Hash: 782694784
+      m_Sprite: {fileID: 21300000, guid: cf8d035f60ff83d4da79223908b40454, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b3f3667a6d35afd42b7984df7dc9ae8a, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_18
+      m_Hash: 1041884177
+      m_Sprite: {fileID: 21300000, guid: d86036e0f702f2d4a89520e5f94bec2f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 7842dc0fdb93eff49b425f304e86216f, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_19
+      m_Hash: 153015431
+      m_Sprite: {fileID: 21300000, guid: 84a6b0c9e89747b41a01953a7832b562, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b3f3667a6d35afd42b7984df7dc9ae8a, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_20
+      m_Hash: 468664288
+      m_Sprite: {fileID: 21300000, guid: 5fd17c99c0f41da449ee79fdc545801f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 7842dc0fdb93eff49b425f304e86216f, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_21
+      m_Hash: 753405814
+      m_Sprite: {fileID: 21300000, guid: d2b6d1fc3b3abf340aeacc61ab287f52, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b3f3667a6d35afd42b7984df7dc9ae8a, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_22
+      m_Hash: 903962316
+      m_Sprite: {fileID: 21300000, guid: 03bbd1e65173c524381300af8cb492b5, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: d108d541f52c55245847f2618b45b4df, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_23
+      m_Hash: 48655962
+      m_Sprite: {fileID: 21300000, guid: 9ff196bf1de07a747a4bad39a52b13d9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: dc72a3fffb269d142970b07e245e7144, type: 3}
+    - m_Name: ChickenRandLFeetAttack01_24
+      m_Hash: 478346233
+      m_Sprite: {fileID: 21300000, guid: f7a21017cff7b0d409cd615faa97ef89, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: a2970ad0931477f45b81cbaa4482803e, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 24
+  - m_Name: Hitdown
+    m_Hash: 882553818
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenHitdown01_01
+      m_Hash: 391654852
+      m_Sprite: {fileID: 21300000, guid: e5d312941cbed5d45af8ca9e8d6f2ac3, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: e13e16b50176ee443bae68c5fc7d2c7f, type: 3}
+    - m_Name: ChickenHitdown01_02
+      m_Hash: 240221310
+      m_Sprite: {fileID: 21300000, guid: db2108cd6a9e30a4da14fad8dc2ba2a2, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b5e745b220723f84c8e6f541ff6569fe, type: 3}
+    - m_Name: ChickenHitdown01_03
+      m_Hash: 961957096
+      m_Sprite: {fileID: 21300000, guid: 149630139a7002b43b6cf5419359ee95, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 235dc4b7fe5d47c49b858d4b1616f4d2, type: 3}
+    - m_Name: ChickenHitdown01_04
+      m_Hash: 657643851
+      m_Sprite: {fileID: 21300000, guid: e99b44e9b9b3920428290cdd0dec02c2, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 0572a8c521060d242b1920bb08b8cd77, type: 3}
+    - m_Name: ChickenHitdown01_05
+      m_Hash: 271968733
+      m_Sprite: {fileID: 21300000, guid: 58fb7b3ba6017424cbcc225b46b83cb0, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: e85a220a669194240a399e20b5022a6e, type: 3}
+    - m_Name: ChickenHitdown01_06
+      m_Hash: 154974311
+      m_Sprite: {fileID: 21300000, guid: b989e9bff87df154b8aebe67b8d896bc, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 5aa1ce1f6baaaaa4fa1cd6c395933ec6, type: 3}
+    - m_Name: ChickenHitdown01_07
+      m_Hash: 1044089073
+      m_Sprite: {fileID: 21300000, guid: d6ec4ef0ccf9932428b666eaf392384c, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 3fdba6514db16c445a244a6534c496dd, type: 3}
+    - m_Name: ChickenHitdown01_08
+      m_Hash: 780440928
+      m_Sprite: {fileID: 21300000, guid: c615457a04a62bd4c8354f690e7f53eb, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: d8ab461c9fb8f2846bb55d797e4a7a6e, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 8
+  - m_Name: Combo
+    m_Hash: 821894990
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenCombo01_01
+      m_Hash: 168048985
+      m_Sprite: {fileID: 21300000, guid: 5fdafbd103e158e48ba35700f86cc766, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 6d26604deab5abd4dbfe2849f57981c7, type: 3}
+    - m_Name: ChickenCombo01_02
+      m_Hash: 319645923
+      m_Sprite: {fileID: 21300000, guid: 07ba911b5e785ef458117174290f3116, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 2033e9345c13772479c5e7df29545642, type: 3}
+    - m_Name: ChickenCombo01_03
+      m_Hash: 604657781
+      m_Sprite: {fileID: 21300000, guid: 531656dbc988ce14e97f437fced2920a, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: dfaafd0717d1a3245a1314c8c75d021e, type: 3}
+    - m_Name: ChickenCombo01_04
+      m_Hash: 980340182
+      m_Sprite: {fileID: 21300000, guid: f0780f97ec626e24ea8903e2237afda7, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 0a5a2bb8cf3033645b56de8019be4181, type: 3}
+    - m_Name: ChickenCombo01_05
+      m_Hash: 225049920
+      m_Sprite: {fileID: 21300000, guid: aa2997cf16ff4364c8c138b863f3e8f6, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b12695ac35e9f604fbb622716d4cdec5, type: 3}
+    - m_Name: ChickenCombo01_06
+      m_Hash: 341880058
+      m_Sprite: {fileID: 21300000, guid: 4c1bfb3d0c0cd37498df221758ab2be3, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 8f2545c845d0fc346a7591837d848531, type: 3}
+    - m_Name: ChickenCombo01_07
+      m_Hash: 593992812
+      m_Sprite: {fileID: 21300000, guid: 664646bc9b3162a4792f3bd97aac5a08, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 477a4630830aca042a2c727a3f609f86, type: 3}
+    - m_Name: ChickenCombo01_08
+      m_Hash: 869827069
+      m_Sprite: {fileID: 21300000, guid: 949e60eb6d0358243a5cca4b59d56a3e, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 5488d5aa1341b7a4ca290c0c65dc0b22, type: 3}
+    - m_Name: ChickenCombo01_09
+      m_Hash: 81768811
+      m_Sprite: {fileID: 21300000, guid: 4973a0f4ca82bf54681b7e1f024a5dee, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: ffada7d53d2ff1346abe16cd31a371dd, type: 3}
+    - m_Name: ChickenCombo01_10
+      m_Hash: 605567118
+      m_Sprite: {fileID: 21300000, guid: 1cd835e83e82ab14698337b82af0a561, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 5b996c5b4cb4c224eaf8e0fde0650ba4, type: 3}
+    - m_Name: ChickenCombo01_11
+      m_Hash: 320800792
+      m_Sprite: {fileID: 21300000, guid: b27ec7a6f71613b4f9b5e7ac26bf70f0, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: bc00b1494f4a4b34dba4ec2e9dc1291f, type: 3}
+    - m_Name: ChickenCombo01_12
+      m_Hash: 169236898
+      m_Sprite: {fileID: 21300000, guid: 08f4e760ba3e4ed49979b674ff8cca68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 9e128b79db942344589e6823d05e55cc, type: 3}
+    - m_Name: ChickenCombo01_13
+      m_Hash: 1024551220
+      m_Sprite: {fileID: 21300000, guid: ba2f4e6adc75716458d417db2505c3e5, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 4033e90ba0b6b7f44b392d109ab0b098, type: 3}
+    - m_Name: ChickenCombo01_14
+      m_Hash: 594934935
+      m_Sprite: {fileID: 21300000, guid: 66c04da1fa3c6b04f9b50d58faf4c851, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: de1b574636126e54190cea30bfbe558d, type: 3}
+    - m_Name: ChickenCombo01_15
+      m_Hash: 343067649
+      m_Sprite: {fileID: 21300000, guid: 19757f4d73ddad34789eae1233b059f9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 8f7a1ab23cd920d42ab6eae4f8d66721, type: 3}
+    - m_Name: ChickenCombo01_16
+      m_Hash: 226205115
+      m_Sprite: {fileID: 21300000, guid: 3e805b5fe05d18642b361a26516fc4b6, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 12eadf457f0b7c342aa2370185897241, type: 3}
+    - m_Name: ChickenCombo01_17
+      m_Hash: 981249325
+      m_Sprite: {fileID: 21300000, guid: 2f4afe958d58e8e4e9420fcd19fcd711, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 96b51e4238cf4ff4fbee3c724d855271, type: 3}
+    - m_Name: ChickenCombo01_18
+      m_Hash: 717467836
+      m_Sprite: {fileID: 21300000, guid: 6cb265899238c2a40956af731f198687, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: ef4c6e8c73fccb541bf49759dd87d258, type: 3}
+    - m_Name: ChickenCombo01_19
+      m_Hash: 499417130
+      m_Sprite: {fileID: 21300000, guid: e4ffb5bf2fe6f4a4c9504aa4334b8b95, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 8ff5ede423c13b046be460c53e7d8018, type: 3}
+    - m_Name: ChickenCombo01_20
+      m_Hash: 255159117
+      m_Sprite: {fileID: 21300000, guid: d5e69a2362a405e4fb75de68f26f8671, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 2e65936386e29b441ba5361cc3cb8018, type: 3}
+    - m_Name: ChickenCombo01_21
+      m_Hash: 942824411
+      m_Sprite: {fileID: 21300000, guid: eb5d366f211d6e04cb41463835c523c5, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 6b16a13777791fb43915c38a0b9681a8, type: 3}
+    - m_Name: ChickenCombo01_22
+      m_Hash: 557517409
+      m_Sprite: {fileID: 21300000, guid: 4fbdc05e86af5464ba109b022e3435b7, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 134b963da1ef5034a99d270f17b538ef, type: 3}
+    - m_Name: ChickenCombo01_23
+      m_Hash: 373046007
+      m_Sprite: {fileID: 21300000, guid: 866ea6bd7f60232459fcca9acf95b468, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: f47dd75a7fb733f4dbb733e1355b3b86, type: 3}
+    - m_Name: ChickenCombo01_24
+      m_Hash: 140029780
+      m_Sprite: {fileID: 21300000, guid: 69bb6868b8c318745bed087fb80e695a, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 5fd4039db2dde984299bf5f67ef95776, type: 3}
+    - m_Name: ChickenCombo01_25
+      m_Hash: 1063231426
+      m_Sprite: {fileID: 21300000, guid: 106471b23e8e0d14ab29e43de96ad121, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 70af27a4e611b2449a3faa0c047ba9df, type: 3}
+    - m_Name: ChickenCombo01_26
+      m_Hash: 643223160
+      m_Sprite: {fileID: 21300000, guid: 512657000b9cef14d8153002b7083b37, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 70af27a4e611b2449a3faa0c047ba9df, type: 3}
+    - m_Name: ChickenCombo01_27
+      m_Hash: 290586350
+      m_Sprite: {fileID: 21300000, guid: a2d2c2e99d2e124479a8f2df2c8a058f, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 70af27a4e611b2449a3faa0c047ba9df, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 27
+  - m_Name: SlideAttack
+    m_Hash: 222403941
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenSlideAttack01_01
+      m_Hash: 681148570
+      m_Sprite: {fileID: 21300000, guid: fd78ddded6bc97543b2e5bec47395b11, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 647d92c8522aca345bfbb1e413c1dd49, type: 3}
+    - m_Name: ChickenSlideAttack01_02
+      m_Hash: 831574304
+      m_Sprite: {fileID: 21300000, guid: 823e4a3383566c842b55dfe1bd15d482, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: e4506189f5e84bd49bbfb3ccdd2941e8, type: 3}
+    - m_Name: ChickenSlideAttack01_03
+      m_Hash: 110617014
+      m_Sprite: {fileID: 21300000, guid: 85f0aefa92796cd45bc910f39b64e975, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 232c05e2b8b5580438591fa9e10490bb, type: 3}
+    - m_Name: ChickenSlideAttack01_04
+      m_Hash: 418608149
+      m_Sprite: {fileID: 21300000, guid: 96a857b82d1eb4b4c82aab8d9bb788b2, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 97b57973f9bc10649946ded629de4454, type: 3}
+    - m_Name: ChickenSlideAttack01_05
+      m_Hash: 804537475
+      m_Sprite: {fileID: 21300000, guid: 1b5ffee488c34144da18ab51e34ab9c5, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: aa5ad2833626b474ba5ee817931a0081, type: 3}
+    - m_Name: ChickenSlideAttack01_06
+      m_Hash: 922555705
+      m_Sprite: {fileID: 21300000, guid: cfb81b7e6eae2ca44ac2df2074eaf7b5, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: cff164e036c74fa42b2bcceaae86fe02, type: 3}
+    - m_Name: ChickenSlideAttack01_07
+      m_Hash: 33170863
+      m_Sprite: {fileID: 21300000, guid: 37b5ad6e8946b0841a129b54dfb9df92, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 29df67721212d06478cb89eec4b04245, type: 3}
+    - m_Name: ChickenSlideAttack01_08
+      m_Hash: 289749054
+      m_Sprite: {fileID: 21300000, guid: ccf0a4f2206c5d848b4f4a3ac852a597, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 6af120e0471eef240ac7d01301941176, type: 3}
+    - m_Name: ChickenSlideAttack01_09
+      m_Hash: 641861800
+      m_Sprite: {fileID: 21300000, guid: 2659bb716228a8d42b1d486cb9316cf0, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 2d42c52daab278541838602a43b5122a, type: 3}
+    - m_Name: ChickenSlideAttack01_10
+      m_Hash: 109412685
+      m_Sprite: {fileID: 21300000, guid: 087fd6239694ed245823bcd00e906faf, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b9973303fc8098c4c98a068e5011ed74, type: 3}
+    - m_Name: ChickenSlideAttack01_11
+      m_Hash: 830648795
+      m_Sprite: {fileID: 21300000, guid: e49faeb3f4d156549afedcc8ec2ee142, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: fdb09254d0e431f4ba67bd7eb8c162ed, type: 3}
+    - m_Name: ChickenSlideAttack01_12
+      m_Hash: 680255585
+      m_Sprite: {fileID: 21300000, guid: 27b12c8e5a0308143ba3784dab60c6f7, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 4ff0e72aaf8851744bada03fde41639b, type: 3}
+    - m_Name: ChickenSlideAttack01_13
+      m_Hash: 529322231
+      m_Sprite: {fileID: 21300000, guid: a72f6952ea4c8e04a87d44b75d9542df, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 9d21d30a296d5ea49ba14c4ca82db148, type: 3}
+    - m_Name: ChickenSlideAttack01_14
+      m_Hash: 31999316
+      m_Sprite: {fileID: 21300000, guid: 465f2de5a4cd5e142abe2e0fcb4d3ee8, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 240f1573cb8216346a58ae559da6349a, type: 3}
+    - m_Name: ChickenSlideAttack01_15
+      m_Hash: 921662914
+      m_Sprite: {fileID: 21300000, guid: b05365e720b638d44ad4f52270bad408, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 576b802dd5020524d983c2bef778eb74, type: 3}
+    - m_Name: ChickenSlideAttack01_16
+      m_Hash: 803611768
+      m_Sprite: {fileID: 21300000, guid: f3b693d995c5aa149839377eff5a7e7b, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 4aebd263b7b0b0741a63fc4ef57e95cd, type: 3}
+    - m_Name: ChickenSlideAttack01_17
+      m_Hash: 417404142
+      m_Sprite: {fileID: 21300000, guid: 8b0a2555525291544bda08a609c54a39, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 926d27304367166499cb6ee68b8a30c2, type: 3}
+    - m_Name: ChickenSlideAttack01_18
+      m_Hash: 140380543
+      m_Sprite: {fileID: 21300000, guid: ce28cfcdbf14497429732745f0c71ca7, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 3ae59af6e1892294d905e514efe6cd14, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 18
+  - m_Name: Parry
+    m_Hash: 504284770
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenParry01_01
+      m_Hash: 429229807
+      m_Sprite: {fileID: 21300000, guid: 957f01e803ac8d141ac9b86dd86f0d35, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 361f137ab1282924a9daf9b44e180860, type: 3}
+    - m_Name: ChickenParry01_02
+      m_Hash: 10278741
+      m_Sprite: {fileID: 21300000, guid: 66d7bcc1594632a46a77f8a0fa13302a, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 6780f0041351d8147abf5a8ef7a1a304, type: 3}
+    - m_Name: ChickenParry01_03
+      m_Hash: 932964291
+      m_Sprite: {fileID: 21300000, guid: 78e3b2d7fcb6d4d4295d98db9b9d7156, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 1751be14b8d88b64a9202535c5aa7f14, type: 3}
+    - m_Name: ChickenParry01_04
+      m_Hash: 704606816
+      m_Sprite: {fileID: 21300000, guid: 04a4f600a1829b84cbeb78196aadf954, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: baae3c660f9f468438b1da608869fe77, type: 3}
+    - m_Name: ChickenParry01_05
+      m_Hash: 519586550
+      m_Sprite: {fileID: 21300000, guid: de36c7883b8265040be130c7b51bc253, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 7a772c0792f1da34e85f532f4b4e6d5a, type: 3}
+    - m_Name: ChickenParry01_06
+      m_Hash: 133239628
+      m_Sprite: {fileID: 21300000, guid: b2a046e2528389540b5a14e839ffb1db, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: e2c954a02d92dd2479e79112c51169c9, type: 3}
+    - m_Name: ChickenParry01_07
+      m_Hash: 821437402
+      m_Sprite: {fileID: 21300000, guid: 7f8c5646bd76c5342aa54e9f1d5797bb, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: a960749f8a0aae44e8d4d31b8e6dbcd9, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 7
+  - m_Name: UpperCutRight
+    m_Hash: 318434776
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenUppercutRight01_01
+      m_Hash: 54580309
+      m_Sprite: {fileID: 21300000, guid: e78993afe8d3a514181ebe407bef336a, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: f4ef1df50914dcd47ac60443b74bfb17, type: 3}
+    - m_Name: ChickenUppercutRight01_02
+      m_Hash: 441026031
+      m_Sprite: {fileID: 21300000, guid: 384954c43b27aed4fb846bd60c80d5d8, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 10d45e319968f18418c85bafe7b5f63e, type: 3}
+    - m_Name: ChickenUppercutRight01_03
+      m_Hash: 760132985
+      m_Sprite: {fileID: 21300000, guid: 22d1cacdd8309a240b862493745bc906, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: ae72bcb0615c3ba4abf5c56fc1ecb9a8, type: 3}
+    - m_Name: ChickenUppercutRight01_04
+      m_Hash: 858398938
+      m_Sprite: {fileID: 21300000, guid: e839a005b4ee49642a1b5a2cbf667910, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: b102964e1b8f64c4fa7cbcc57ed68b29, type: 3}
+    - m_Name: ChickenUppercutRight01_05
+      m_Hash: 70062156
+      m_Sprite: {fileID: 21300000, guid: 47f94225fb48c0e48a2af9df26f14e68, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 834f06f585c14f1419995dc5f04fe74d, type: 3}
+    - m_Name: ChickenUppercutRight01_06
+      m_Hash: 488915446
+      m_Sprite: {fileID: 21300000, guid: 07f656028c5f7ff4b946fd08b87575a0, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 11c69445d62e5a842834c00dc29fbe5c, type: 3}
+    - m_Name: ChickenUppercutRight01_07
+      m_Hash: 706965856
+      m_Sprite: {fileID: 21300000, guid: 165f9da57b565f54db2f39528bd0acf5, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: bcabae8117c2a7a41ad73ed055160a96, type: 3}
+    - m_Name: ChickenUppercutRight01_08
+      m_Hash: 983330033
+      m_Sprite: {fileID: 21300000, guid: 75be4fbc9c2493f4c9a582931cea7c3b, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: d4b668f4b49e7cf40b9be1e0577f0d57, type: 3}
+    - m_Name: ChickenUppercutRight01_09
+      m_Hash: 228285543
+      m_Sprite: {fileID: 21300000, guid: bbade87e9c665054a929f1d135956998, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: d4b668f4b49e7cf40b9be1e0577f0d57, type: 3}
+    - m_Name: ChickenUppercutRight01_10
+      m_Hash: 761058690
+      m_Sprite: {fileID: 21300000, guid: 5eaac26c03101d448a2a98e3b314a25b, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 4d5820574e4aa394fb98f514c48530d7, type: 3}
+    - m_Name: ChickenUppercutRight01_11
+      m_Hash: 442230036
+      m_Sprite: {fileID: 21300000, guid: 4082874ce1ce69448b35788c9f152adc, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 19848e64d46111342afc294fc4adb648, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 11
+  - m_Name: UpperCutLeft
+    m_Hash: 916999373
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenUppercutLeft01_01
+      m_Hash: 443962453
+      m_Sprite: {fileID: 21300000, guid: ecf31b4acb759a74d9aef5bf1ba52fec, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 2f40b9366324e1841b4c47df44948f09, type: 3}
+    - m_Name: ChickenUppercutLeft01_02
+      m_Hash: 58656239
+      m_Sprite: {fileID: 21300000, guid: 49a40e876cbb74b42b7dac6b99d69085, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 1a54bccabbe9ec049a4d950cb3dd9007, type: 3}
+    - m_Name: ChickenUppercutLeft01_03
+      m_Hash: 880293241
+      m_Sprite: {fileID: 21300000, guid: 1d2218e7e800f6448a7d389f1a2e791c, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 2ac78aa39cfaf42459c0057be89cb84b, type: 3}
+    - m_Name: ChickenUppercutLeft01_04
+      m_Hash: 706519258
+      m_Sprite: {fileID: 21300000, guid: 27b843d1300602147ac362eb177ec060, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 747d953b71be1d246b0c758a71b6a856, type: 3}
+    - m_Name: ChickenUppercutLeft01_05
+      m_Hash: 488345676
+      m_Sprite: {fileID: 21300000, guid: 71bc43b8c0148f74aaa7ef12022f7ca0, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 14b10f16960833d4b84cb06b725dc96c, type: 3}
+    - m_Name: ChickenUppercutLeft01_06
+      m_Hash: 68338166
+      m_Sprite: {fileID: 21300000, guid: 6d0751c4a51932242ab2a5b01863a28e, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 7df78ff02042db646b20b0b063776ff0, type: 3}
+    - m_Name: ChickenUppercutLeft01_07
+      m_Hash: 857076064
+      m_Sprite: {fileID: 21300000, guid: f86f5fe0892185644a9d4612063d091b, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: a2b923c882d92254a98d84ff824ed750, type: 3}
+    - m_Name: ChickenUppercutLeft01_08
+      m_Hash: 598404337
+      m_Sprite: {fileID: 21300000, guid: 568bf983c8c220745a41cceea2afead6, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 779041de33b72fc4cb4d6f3fa7bb6ffd, type: 3}
+    - m_Name: ChickenUppercutLeft01_09
+      m_Hash: 346938471
+      m_Sprite: {fileID: 21300000, guid: 5f9f8fbb86c6a364196a91fcbdbbe296, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 779041de33b72fc4cb4d6f3fa7bb6ffd, type: 3}
+    - m_Name: ChickenUppercutLeft01_10
+      m_Hash: 879383938
+      m_Sprite: {fileID: 21300000, guid: cbaddd5cc36f513439e7275422bd03ff, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 17992f9276cb83a4f95fd27685e56f81, type: 3}
+    - m_Name: ChickenUppercutLeft01_11
+      m_Hash: 57500948
+      m_Sprite: {fileID: 21300000, guid: 03722adcdae6d9f44b39c6453b95df33, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: bfef3d726e172bf42839d2a63b280707, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 11
+  - m_Name: GrabFeetAttack
+    m_Hash: 553288418
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: ChickenGrabFeetAttack01_01
+      m_Hash: 177429584
+      m_Sprite: {fileID: 21300000, guid: 3e786f003d50537499da228530cbeeb9, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: c99092dfef2a3b944942a71e90361803, type: 3}
+    - m_Name: ChickenGrabFeetAttack01_02
+      m_Hash: 328863210
+      m_Sprite: {fileID: 21300000, guid: 94ba3e5fe00b21249818a7106f9a11fd, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 8190cbe9ac2870c4a95a910a8176f796, type: 3}
+    - m_Name: ChickenGrabFeetAttack01_03
+      m_Hash: 614284668
+      m_Sprite: {fileID: 21300000, guid: 6be91d43452c922418e9937b4ef58f8a, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: c3e5a67afe8222d4a82bf4d26789414c, type: 3}
+    - m_Name: ChickenGrabFeetAttack01_04
+      m_Hash: 989440223
+      m_Sprite: {fileID: 21300000, guid: 1f518da01200c0a4887907752dd7f4ba, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: eb4becd47e36b5c4d8f5e902d7c0ba38, type: 3}
+    - m_Name: ChickenGrabFeetAttack01_05
+      m_Hash: 234788937
+      m_Sprite: {fileID: 21300000, guid: 7452444a66ae102468c6f6f6321c8fef, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 0160fa0853a99054f8a799685695b6cf, type: 3}
+    - m_Name: ChickenGrabFeetAttack01_06
+      m_Hash: 351783411
+      m_Sprite: {fileID: 21300000, guid: 5d5b2cf9774e4dc4dba5411ec22bdb7c, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 36f32257c723276489956bd89b1feada, type: 3}
+    - m_Name: ChickenGrabFeetAttack01_07
+      m_Hash: 602995045
+      m_Sprite: {fileID: 21300000, guid: fcdf0ff55a5232d469962e0d3632106a, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 0160fa0853a99054f8a799685695b6cf, type: 3}
+    - m_Name: ChickenGrabFeetAttack01_08
+      m_Hash: 860873972
+      m_Sprite: {fileID: 21300000, guid: b3604ca5015b4d6419da80f676c84821, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 36f32257c723276489956bd89b1feada, type: 3}
+    - m_Name: ChickenGrabFeetAttack01_09
+      m_Hash: 71881826
+      m_Sprite: {fileID: 21300000, guid: 9c70507f40134334ba898f50686b589a, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 0160fa0853a99054f8a799685695b6cf, type: 3}
+    - m_Name: ChickenGrabFeetAttack01_10
+      m_Hash: 613375367
+      m_Sprite: {fileID: 21300000, guid: 26bf0131802963548bc552cc43f6b2a4, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 36f32257c723276489956bd89b1feada, type: 3}
+    - m_Name: ChickenGrabFeetAttack01_11
+      m_Hash: 327707921
+      m_Sprite: {fileID: 21300000, guid: 33e63bec68887884b865061006de516a, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 0160fa0853a99054f8a799685695b6cf, type: 3}
+    - m_Name: ChickenGrabFeetAttack01_12
+      m_Hash: 176241835
+      m_Sprite: {fileID: 21300000, guid: 97c0980d2e8cb4a49b1addf52569c795, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 36f32257c723276489956bd89b1feada, type: 3}
+    - m_Name: ChickenGrabFeetAttack01_13
+      m_Hash: 1032195133
+      m_Sprite: {fileID: 21300000, guid: 131631c45425d154caf94fba563c6200, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 0160fa0853a99054f8a799685695b6cf, type: 3}
+    - m_Name: ChickenGrabFeetAttack01_14
+      m_Hash: 602053022
+      m_Sprite: {fileID: 21300000, guid: 2588eab2f02a153499443b196a30922d, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 36f32257c723276489956bd89b1feada, type: 3}
+    - m_Name: ChickenGrabFeetAttack01_15
+      m_Hash: 350595336
+      m_Sprite: {fileID: 21300000, guid: 30412ae1c06fe084fb0c22cedbefc778, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: 7f94747e7d2068343843bb45fb58856b, type: 3}
+    - m_Name: ChickenGrabFeetAttack01_16
+      m_Hash: 233633970
+      m_Sprite: {fileID: 21300000, guid: 8d1e5c20084ee084da84da13aaba3d83, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: f9a8522490a158449a6c7b52f4cff0a4, type: 3}
+    - m_Name: ChickenGrabFeetAttack01_17
+      m_Hash: 988530724
+      m_Sprite: {fileID: 21300000, guid: 3772b2692b0cd1f4da6ca11366fc0ba5, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 21300000, guid: d57bf64443bc15442b96d71e3788dffa, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 17
+  m_PrimaryLibraryGUID: 7693a0d9f3d04d646b959d2a58632cd9
