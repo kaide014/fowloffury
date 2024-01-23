@@ -12,14 +12,15 @@ using UnityEngine.SceneManagement;
 using Unity.Services.Lobbies;
 using Unity.Services.Lobbies.Models;
 using System.Text;
+using Unity.Services.Authentication;
 
-public class HostGameManager
+public class HostGameManager : IDisposable
 {
     private Allocation allocation;
     private const string GameSceneName = "Game";
     private string joinCode;
     private string lobbyId;
-    private NetworkServer networkServer;
+    public NetworkServer NetworkServer { get; private set; }
     private const int MaxConnections = 2;
     public async Task StartHostAsync()
     {
@@ -27,7 +28,7 @@ public class HostGameManager
         {
             allocation = await Relay.Instance.CreateAllocationAsync(MaxConnections);
         }
-        catch(Exception e)
+        catch (Exception e)
         {
             Debug.Log(e);
             return;
@@ -66,8 +67,8 @@ public class HostGameManager
             string playerName = PlayerPrefs.GetString(NameSelector.PlayerNameKey, "Unknown");
 
             Lobby lobby = await Lobbies.Instance.CreateLobbyAsync(
-                $"{playerName}'s Lobby", 
-                MaxConnections, 
+                $"{playerName}'s Lobby",
+                MaxConnections,
                 lobbyOptions);
 
             lobbyId = lobby.Id;
@@ -80,11 +81,12 @@ public class HostGameManager
             return;
         }
 
-        networkServer = new NetworkServer(NetworkManager.Singleton);
+        NetworkServer = new NetworkServer(NetworkManager.Singleton);
 
         UserData userData = new UserData
         {
-            userName = PlayerPrefs.GetString(NameSelector.PlayerNameKey, "Missing Name")
+            userName = PlayerPrefs.GetString(NameSelector.PlayerNameKey, "Missing Name"),
+            userAuthId = AuthenticationService.Instance.PlayerId
         };
 
         string payload = JsonUtility.ToJson(userData);
@@ -103,7 +105,26 @@ public class HostGameManager
         while (true)
         {
             Lobbies.Instance.SendHeartbeatPingAsync(lobbyId);
-            yield return delay; 
+            yield return delay;
         }
+    }
+
+    public async void Dispose()
+    {
+        if (string.IsNullOrEmpty(lobbyId)) { return; }
+        
+        HostSingleton.Instance.StopCoroutine(nameof(HeartBeatLobby));
+        try
+        {
+            await Lobbies.Instance.DeleteLobbyAsync(lobbyId);
+        }
+        catch (LobbyServiceException e)
+        {
+            Debug.Log(e);
+        }
+
+        lobbyId = string.Empty;
+
+        NetworkServer?.Dispose();
     }
 }

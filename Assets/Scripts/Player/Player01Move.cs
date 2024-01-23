@@ -4,6 +4,7 @@ using UnityEngine;
 using Unity.Netcode;
 using Unity.Netcode.Components;
 using UnityEngine.UI;
+using Unity.Collections;
 
 public class Player01Move : NetworkBehaviour
 {
@@ -39,6 +40,8 @@ public class Player01Move : NetworkBehaviour
     private bool isFacingLeft;
 
     public static bool isMovingForward;
+
+    public NetworkVariable<FixedString32Bytes> PlayerName = new NetworkVariable<FixedString32Bytes>();
     // Start is called before the first frame update
     public void SetOwner(ulong ownerClientId)
     {
@@ -47,6 +50,14 @@ public class Player01Move : NetworkBehaviour
 
     public override void OnNetworkSpawn()
     {
+        if (IsServer)
+        {
+            UserData userData = 
+                HostSingleton.Instance.GameManager.NetworkServer.GetUserDataByClientId(OwnerClientId);
+
+            PlayerName.Value = userData.userName;
+        }
+
         if (!IsOwner) return;
         anim = GetComponent<Animator>();
         body = GetComponent<Rigidbody2D>();
@@ -241,6 +252,7 @@ public class Player01Move : NetworkBehaviour
                 netanim.SetTrigger("LeftJab");
                 body.transform.Translate(fps * new Vector2(speed, 0f) * Time.deltaTime);
                 Hits = false;
+                HealthDisplay.isLeftJab = false;
                 StartCoroutine(LeftJabFalse());
             }
 
@@ -249,6 +261,7 @@ public class Player01Move : NetworkBehaviour
                 netanim.SetTrigger("RightJab");
                 body.transform.Translate(fps * new Vector2(speed, 0f) * Time.deltaTime);
                 Hits = false;
+                HealthDisplay.isRightJab = false;
                 StartCoroutine(RightJabFalse());
             }
 
@@ -258,6 +271,7 @@ public class Player01Move : NetworkBehaviour
                 netanim.SetTrigger("LeftKick");
                 body.transform.Translate(fps * new Vector2(speed, 0f) * Time.deltaTime);
                 Hits = false;
+                HealthDisplay.isLeftKick = false;
                 StartCoroutine(LeftKickFalse());
             }
 
@@ -266,6 +280,7 @@ public class Player01Move : NetworkBehaviour
                 netanim.SetTrigger("RightKick");
                 body.transform.Translate(fps * new Vector2(speed, 0f) * Time.deltaTime);
                 Hits = false;
+                HealthDisplay.isRightKick = false;
                 StartCoroutine(RightKickFalse());
             }
 
@@ -273,6 +288,7 @@ public class Player01Move : NetworkBehaviour
             {
                 netanim.SetTrigger("Parry");
                 isParrying = true;
+                HealthDisplay.isParry = false;
                 StartCoroutine(ParryFalse());
             }
             else
@@ -284,6 +300,7 @@ public class Player01Move : NetworkBehaviour
             {
                 netanim.SetTrigger("Combo");
                 Hits = false;
+                HealthDisplay.isCombo = false;
             }
 
             if ((Time.time <= (lastPressFire3 + timeAllowedToChain)))
@@ -292,6 +309,7 @@ public class Player01Move : NetworkBehaviour
                 {
                     netanim.SetTrigger("RandLFeetAttack");
                     Hits = false;
+                    HealthDisplay.isRightKick = false;
                 }
             }
             
@@ -317,6 +335,7 @@ public class Player01Move : NetworkBehaviour
             {
                 netanim.SetTrigger("RandLFeetAttack");
                 Hits = false;
+                HealthDisplay.isRightJab = false;
             }
 
             if (Input.GetButtonDown("Fire2") && (Time.time <= (lastPressFire2 + timeAllowedToChain)))
@@ -331,6 +350,7 @@ public class Player01Move : NetworkBehaviour
             if (Input.GetButtonDown("Fire1") || HealthDisplay.isLeftJab == true)
             {
                 netanim.SetTrigger("LeftJab");
+                HealthDisplay.isLeftJab = false;
                 if (isFacingRight == true)
                 {
                     body.AddForce(new Vector2(fps * 0.1f, fps * jump), ForceMode2D.Impulse);
@@ -346,6 +366,7 @@ public class Player01Move : NetworkBehaviour
             if (Input.GetButtonDown("Fire2") || HealthDisplay.isRightJab == true)
             {
                 netanim.SetTrigger("RightJab");
+                HealthDisplay.isRightJab = false;
                 if (isFacingRight == true)
                 {
                     body.AddForce(new Vector2(fps * 0.1f, fps * jump), ForceMode2D.Impulse);
@@ -363,6 +384,7 @@ public class Player01Move : NetworkBehaviour
                 netanim.SetTrigger("LeftKick");
                 body.transform.Translate(fps * new Vector2(speed, 0f) * Time.deltaTime);
                 Hits = false;
+                HealthDisplay.isLeftKick = false;
             }
         }
 

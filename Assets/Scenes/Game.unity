@@ -834,7 +834,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 380669333}
           m_TargetAssemblyTypeName: HealthDisplay, Assembly-CSharp
-          m_MethodName: RightJabAttackUp
+          m_MethodName: RightKickAttackUp
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

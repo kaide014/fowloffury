@@ -129,11 +129,13 @@ public class HealthDisplay : NetworkBehaviour
     public void IsParryDown()
     {
         isParry = true;
+        Debug.Log(isParry);
     }
 
     public void IsParryUp()
     {
         isParry = false;
+        Debug.Log(isParry);
     }
 
     public void IsComboDown()
